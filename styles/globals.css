@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #111827;
+  color: #f3f4f6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  @apply bg-gray-800  p-6 shadow-lg border border-gray-700;
+}
+
+.btn-primary {
+  @apply bg-gold text-black px-4 py-2  font-semibold hover:bg-yellow-400 transition;
+}
+
+.btn-secondary {
+  @apply bg-gray-700 text-white px-4 py-2  font-semibold hover:bg-gray-600 transition;
+}
+
+.input-field {
+  @apply w-full bg-gray-700 text-white px-3 py-2  border border-gray-600 focus:border-gold focus:outline-none;
+}
+
+.success {
+  @apply text-green-400;
+}
+
+.danger {
+  @apply text-red-400;
+}
+
+.warning {
+  @apply text-yellow-400;
+}
