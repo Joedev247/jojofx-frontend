@@ -13,7 +13,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-24">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3 group flex-shrink-0">
-            <div className="relative w-24 h-24 overflow-hidden rounded-lg group-hover:opacity-80 transition-opacity">
+            <div className="relative w-24 h-24 overflow-hidden  group-hover:opacity-80 transition-opacity">
               <Image
                 src="/logo.png"
                 alt="JOJOFX"

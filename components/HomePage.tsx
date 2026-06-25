@@ -28,10 +28,10 @@ export default function HomePage() {
         <section className=" border border-slate-800 bg-slate-900/95 p-5 shadow-xl">
           <h2 className="text-xl font-semibold text-white">Next steps</h2>
           <div className="mt-4 grid gap-4 sm:grid-cols-2">
-            <Link href="/dashboard" className="bg-gradient-to-r from-yellow-500 to-amber-600 text-slate-950 px-4 py-3 text-center text-sm font-semibold hover:from-yellow-400 hover:to-amber-500 transition-all shadow-lg shadow-yellow-500/30 hover:shadow-yellow-500/50 rounded-lg">
+            <Link href="/dashboard" className="bg-gradient-to-r from-yellow-500 to-amber-600 text-slate-950 px-4 py-3 text-center text-sm font-semibold hover:from-yellow-400 hover:to-amber-500 transition-all shadow-lg shadow-yellow-500/30 hover:shadow-yellow-500/50 ">
               Visit Dashboard
             </Link>
-            <Link href="/how-it-works" className="border border-slate-700 bg-slate-950 px-4 py-3 text-center text-sm text-slate-200 hover:border-yellow-400 hover:text-yellow-300 hover:shadow-lg hover:shadow-yellow-500/20 rounded-lg">
+            <Link href="/how-it-works" className="border border-slate-700 bg-slate-950 px-4 py-3 text-center text-sm text-slate-200 hover:border-yellow-400 hover:text-yellow-300 hover:shadow-lg hover:shadow-yellow-500/20 ">
               Read setup logic
             </Link>
           </div>
