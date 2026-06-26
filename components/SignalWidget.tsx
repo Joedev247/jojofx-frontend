@@ -34,7 +34,7 @@ interface MarketAnalysis {
   ruleChecks: RuleCheck[];
 }
 
-const POLL_INTERVAL = 15000;
+const POLL_INTERVAL = 60000;
 const XAUUSD_PIP_SIZE = 0.01;
 
 const formatCurrency = (value?: number) => {
